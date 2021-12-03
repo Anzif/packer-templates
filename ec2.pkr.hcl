@@ -49,6 +49,6 @@ build {
   sources = ["source.amazon-ebs.httpd"]
 
   provisioner "shell" {
-    script = "source/script.sh"
+    script = "script.sh"
   }
 }
